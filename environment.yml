@@ -1,0 +1,23 @@
+name: paper2-xai
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - xarray
+  - pillow
+  - rasterio
+  - shapely
+  - pyshp
+  - ruamel.yaml
+  - pyyaml
+  - pytorch
+  - pip
+  - pip:
+      - neuralhydrology==1.12.0
+      - captum

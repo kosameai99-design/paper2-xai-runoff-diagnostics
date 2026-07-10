@@ -1,0 +1,36 @@
+# Compact sensitivity-run configuration. This is not the primary model.
+model: ealstm
+dataset: japan
+package_version: 1.12.0
+seed: 595126
+epochs: 20
+batch_size: 64
+seq_length: 365
+predict_last_n: 1
+hidden_size: 64
+head: regression
+loss: MSE
+optimizer: Adam
+output_dropout: 0.4
+dynamic_inputs:
+  - hist_pr
+  - hist_tas
+  - ssr
+  - sd
+  - snowc
+  - sf
+  - swvl1
+  - swvl_deep
+  - stl1
+  - wind_speed
+  - PET
+static_attributes:
+  - precip_mean
+  - temp_mean
+  - snowfall_mean
+  - snow_fraction
+  - snow_depth_mean
+  - elev_mean
+  - slope_mean
+  - landuse_shannon
+

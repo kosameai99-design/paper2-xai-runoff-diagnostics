@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the versioned GitHub release and the associated manuscript."
+title: "Model-consistent XAI diagnostics for runoff prediction across 135 Japanese basins: Software"
+type: software
+version: 1.0.0
+date-released: 2026-07-10
+license: BSD-3-Clause
+repository-code: "https://github.com/kosameai99-design/paper2-xai-runoff-diagnostics"
+abstract: "Software for Integrated Gradients attribution, model-facing validation, A-F aggregation, and figure and table generation for a CudaLSTM runoff model across 135 Japanese basins."
+authors:
+  - family-names: Zhang
+    given-names: Zhaoyu
+    affiliation: The University of Tokyo
+  - family-names: Kawasaki
+    given-names: Akiyuki
+    affiliation: The University of Tokyo
+  - family-names: Moiz
+    given-names: Abdul
+    affiliation: University of California, San Diego
+keywords:
+  - hydrology
+  - runoff prediction
+  - explainable artificial intelligence
+  - Integrated Gradients
+  - CudaLSTM
+  - Japan

@@ -1,0 +1,13 @@
+artifact,canonical_checkpoint,release_source,notes
+Primary model,20,configs_models/model_epoch020.pt,CudaLSTM primary run
+Performance metrics,20,derived_results/performance/test_metrics_epoch020.csv,135 basins in the 2002-2003 held-out period
+Test IG,20,private lineage only,Original directory name epoch_000 is a naming artifact
+Group A,20,derived_results/attribution/groupA_global/global_feature_importance_aggregated.csv,Global grouped unsigned IG
+Group B,20,derived_results/attribution/groupB_temporal/groupB_seasonal_raw_variables.csv,Seasonal raw-variable summaries
+Group C,20,derived_results/attribution/groupC_basin/groupC_basin_fingerprints.csv,Consolidated 135-basin fingerprints
+Group D/E/F,20,derived_results/attribution/groupD_E_F_daily/,Attribution-only seasonal day-of-year and daily CSVs
+Closure,20,derived_results/validation/closure/,Corrected forward closure tables
+Seed stability,20,derived_results/validation/stability/,Four independent seed runs
+Response consistency,20,derived_results/validation/response_consistency/,Ablation and keep-only summaries
+EA-LSTM sensitivity,19,configs_models/ealstm_sensitivity_model_epoch019.pt,Auxiliary sensitivity only
+

@@ -1,0 +1,12 @@
+figure,public source data,restricted source dependency,reproduction status
+Figure 1,figures/main/Figure1.png,GRDC basin polygons and station-to-basin mapping,final image only
+Figure 2,derived_results/performance/test_metrics_epoch020.csv,GRDC basin polygons,performance CDF reproducible; map requires restricted geometry
+Figure 3,derived_results/attribution/groupA_global/global_feature_importance_aggregated.csv,none,fully reproducible
+Figure 4,derived_results/attribution/groupC_basin/basin_001/detailed_analysis.json; derived_results/attribution/groupC_basin/basin_123/detailed_analysis.json,none,fully reproducible
+Figure 5,derived_results/attribution/groupD_E_F_daily/basin_001/; derived_results/attribution/groupD_E_F_daily/basin_123/,none,fully reproducible
+Figure 6,derived_results/external_plausibility/*.csv,GRDC polygons; soil map; soil-depth raster; elevation raster,final image and regional summary tables included
+SI5 closure,derived_results/validation/closure/,none,source tables included
+SI5 stability,derived_results/validation/stability/,none,source tables included
+SI6 response consistency,derived_results/validation/response_consistency/,none,source tables included
+SI7 extended attribution,derived_results/attribution/,none,source tables included
+
