@@ -1,4 +1,4 @@
-# Paper 2 XAI Runoff Diagnostics
+# Model-Consistent XAI Diagnostics for Runoff Prediction
 
 This repository contains version 1.0.0 of the analysis software supporting model-consistent Integrated Gradients diagnostics for CudaLSTM runoff predictions across 135 Japanese basins.
 
@@ -11,7 +11,7 @@ This repository contains version 1.0.0 of the analysis software supporting model
 - Parameterized builders for geospatial Figures 1, 2, and 6 and Supporting Information figures.
 - CudaLSTM and EA-LSTM sensitivity configurations.
 
-Model checkpoints, derived attribution tables, validation results, and rendered figures are not included in this private software repository. A citable derived-results archive will be prepared when the manuscript is submitted.
+Model checkpoints, derived attribution tables, validation results, and rendered figures are not included in this software repository. A citable companion archive of derived results will be released separately.
 
 ## Reproduction levels
 
@@ -21,7 +21,7 @@ Figures 3-5 and the compact validation summaries can be reproduced after obtaini
 
 ```bash
 conda env create -f environment.yml
-conda activate paper2-xai
+conda activate runoff-xai-diagnostics
 ```
 
 ## Verify the release
@@ -40,4 +40,4 @@ python code/release_tools/verify_release.py --data-root /path/to/extracted_datas
 
 ## License
 
-Code is licensed under the BSD 3-Clause License. The future derived-results package will use a separate data license. Third-party data remain subject to their providers' terms.
+Code is licensed under the BSD 3-Clause License. The companion derived-results archive uses a separate data license. Third-party data remain subject to their providers' terms.
