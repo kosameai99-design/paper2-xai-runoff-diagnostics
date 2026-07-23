@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Recompute compact Paper 2 performance and response-consistency summaries."""
+"""Recompute compact runoff-performance and response-consistency summaries."""
 
 from __future__ import annotations
 
@@ -39,4 +39,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
