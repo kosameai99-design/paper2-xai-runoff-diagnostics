@@ -4,7 +4,6 @@
 - Complete training data, QObs-bearing result pickles, and scalers.
 - Third-party soil, elevation, land-use, and administrative-boundary files.
 - SHAP outputs.
-- Paper 3 regime, event, physical-consistency, and metric-loss-sensitivity outputs.
+- Follow-on regime, event, physical-consistency, and metric-loss-sensitivity analyses.
 - Historical draft figures, duplicated PNGs, internal reports, and Word insertion scripts.
 - Validation IG for epochs 1-19.
-
