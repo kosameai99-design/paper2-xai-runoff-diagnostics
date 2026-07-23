@@ -1,4 +1,4 @@
-name: paper2-xai
+name: runoff-xai-diagnostics
 channels:
   - conda-forge
 dependencies:
