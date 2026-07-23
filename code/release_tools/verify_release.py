@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate the Paper 2 software repository and optional results package."""
+"""Validate the runoff-XAI software repository and optional results package."""
 
 from __future__ import annotations
 
@@ -73,7 +73,7 @@ def scan_text(root: Path, errors: list[str], allow_placeholders: bool) -> None:
     for path in root.rglob("*"):
         lower = str(path.relative_to(root)).lower()
         if any(name in lower for name in FORBIDDEN_NAMES):
-            errors.append(f"forbidden Paper 3/SHAP artifact: {path.relative_to(root)}")
+            errors.append(f"forbidden follow-on regime/SHAP artifact: {path.relative_to(root)}")
 
 
 def verify_code(root: Path, errors: list[str], allow_placeholders: bool) -> None:
