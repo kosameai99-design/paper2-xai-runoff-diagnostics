@@ -36,7 +36,7 @@ def write_metadata(root: Path, doi: str) -> None:
         f"Version {VERSION}; DOI: {doi}.\n\n"
         "This dataset contains the trained Epoch 20 CudaLSTM checkpoint, the EA-LSTM sensitivity checkpoint, basin performance metrics, Group A-F Integrated Gradients summaries, closure/stability/response-consistency tables, rendered manuscript and Supporting Information figures, and source-data lineage manifests.\n\n"
         "The release supports verification of the reported post-processing, model-facing attribution checks, and central figures. Full model retraining requires provider-controlled source observations. Figures 1, 2, and 6 require third-party geospatial inputs that are not redistributed.\n\n"
-        "The dataset does not include GRDC observations, station mappings, coordinates, basin polygons, QObs time series, third-party rasters, Paper 3 regime/event outputs, SHAP outputs, or metric-loss sensitivity outputs. See `docs/DATA_ACCESS.md` and `docs/EXCLUSIONS.md`.\n\n"
+        "The dataset does not include GRDC observations, station mappings, coordinates, basin polygons, QObs time series, third-party rasters, follow-on regime/event outputs, SHAP outputs, or metric-loss sensitivity outputs. See `docs/DATA_ACCESS.md` and `docs/EXCLUSIONS.md`.\n\n"
         "Derived results and released checkpoints are licensed under CC BY 4.0. Third-party source data remain under their providers' terms.\n",
         encoding="utf-8",
     )
