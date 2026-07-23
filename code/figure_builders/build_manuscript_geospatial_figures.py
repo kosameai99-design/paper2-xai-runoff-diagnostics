@@ -991,7 +991,7 @@ def crop_existing_si7() -> list[Path]:
         ("si7_1_signed_groupA_wrr_polish_v1.png", ANALYSIS / "global_analysis/global_feature_importance_signed_aggregated.png", 95),
         ("si7_2a_seasonal_heatmap_wrr_polish_v1.png", ANALYSIS / "temporal_analysis/seasonal_patterns_heatmap.png", 120),
         ("si7_2b_seasonal_top6_wrr_polish_v1.png", ANALYSIS / "temporal_analysis/seasonal_patterns_top6.png", 100),
-        ("si7_3_groupC_distribution_wrr_polish_v1.png", NOTE_ROOT / "paper2_docx_outputs/derived_figures/si7_3_group_c_dominant_attribution_distribution_v1.png", 0),
+        ("si7_3_groupC_distribution_wrr_polish_v1.png", NOTE_ROOT / "manuscript_outputs/derived_figures/si7_3_group_c_dominant_attribution_distribution_v1.png", 0),
     ]
     outs = []
     for name, src, top_px in specs:
@@ -1040,9 +1040,9 @@ def make_contact_sheet(paths: list[Path], out: Path, thumb_w=520) -> None:
 
 def write_notes(paths: dict[str, Path]) -> None:
     notes = [
-        "# Paper 2 Figure QC notes WRR polish v2",
+        "# Runoff-XAI figure quality-control notes",
         "",
-        "Generated without rerunning the hydrologic model or IG analysis. This is a targeted figure revision for the v16 manuscript preview.",
+        "Generated without rerunning the hydrologic model or IG analysis. This record documents the publication figure build.",
         "",
         "## Outputs",
     ]
