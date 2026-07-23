@@ -289,7 +289,7 @@ def make_contact_sheet(paths: list[Path]) -> Path:
             sheet.paste(thumbs[idx], (x, y))
             x += max_w + gap
         y += row_heights[r] + gap
-    out = CONTACT_DIR / "paper2_si_figures_v9_contact_sheet.png"
+    out = CONTACT_DIR / "supporting_information_figures_contact_sheet.png"
     sheet.save(out)
     return out
 
